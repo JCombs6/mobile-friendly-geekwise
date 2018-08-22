@@ -1,1 +1,41 @@
 @import url("../fonts/glyphicons-halflings-regular.woff2");
+
+.box {
+  height: 100px;
+  width: 200px;
+  background: red;
+  display: block;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background: blue;
+  display: inline-block;
+}
+
+section {
+  height: 100px;
+  background: orange;
+  border: 1px solid black;
+}
+.one, .two {
+  height: 200px;
+  width: 200px;
+  background: tomato;
+  border: 1px solid black;
+}
+
+@media screen and (max width: 768px) {
+  .one {
+    background: rebeccapurple;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (max width: 768px) {
+  .two {
+    font-size: 3em;
+    background: white;
+  }
+}
