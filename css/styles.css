@@ -1,5 +1,30 @@
 @import url("../fonts/glyphicons-halflings-regular.woff2");
+@import url("fonts\fontawesome-free-5.2.0-desktop");
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+.jumbotron {
+  padding: 10px;
+  margin: 20px;
+}
+
+.well {
+  background-color: #006666;
+  padding: 40px;
+  margin: 30px;
+}
+
+.jumbotron-two {
+  background-color: #b30000;
+  padding: 300px;
+  margin: 25px;
+}
+
+h2 {
+  font-size: 3em;
+  font-style: italic;
+  color: black;
+}
+/* Early practice style *
 .box {
   height: 100px;
   width: 200px;
@@ -39,3 +64,17 @@ section {
     background: white;
   }
 }
+
+p {
+  color: green !important;
+  font-size: 3em;
+  font-family: font-family: 'Lato', sans-serif;;
+}
+
+p {
+  color: blue !important;
+}
+
+.block [
+  color: red;
+]
